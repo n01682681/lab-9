@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+    <section class="filters">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="city">city</button>
+        <button class="filter-btn" data-category="people">food</button>
+    </section>
+    <section class="gallery">
+        <div class="image-container">
+            <img src="https://i.pinimg.com/736x/bb/87/b9/bb87b96f017e27a0ccb83ca1a4ad21c2.jpg" alt="Image 1" data-category="nature">
+            <img src="https://burst.shopifycdn.com/photos/chicago-city-lights-at-night.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="Image 2" data-category="city">
+            <img src="https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg" alt="Image 3" data-category="food">
+            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg" alt="image 4" data-category="nature">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/15/32/pedestrians-1853552_640.jpg" alt="image 5" data-category="city">
+            <img src="https://www.shutterstock.com/image-photo/foods-different-countries-western-eastern-260nw-644801857.jpg" alt="image 6" data-category="food">
+        </div>
+    </section>
+    <div class="lightbox-overlay">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <button class="lightbox-close">Close</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
